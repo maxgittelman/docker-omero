@@ -13,7 +13,7 @@ You will need to install `docker > 1.13.0` and `docker-compose >= 1.11.0` (check
 To start OMERO, simply do :
 
 ```sh
-mkdir -p omero/omero-data/
+mkdir -p omero/omero-data/ omero/docker-omero/
 cd omero/docker-omero/
 wget https://raw.githubusercontent.com/hadim/docker-omero/master/docker-compose.yml
 docker-compose up  # You can use the -d option to run in the background.
